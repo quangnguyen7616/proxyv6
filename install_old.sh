@@ -12,5 +12,5 @@ install_3proxy() {
     chkconfig 3proxy on
 }
 echo "installing apps"
-yum -y install wget gcc net-tools bsdtar zip jq >/dev/null
+yum -y install wget gcc net-tools bsdtar zip jq dos2unix >/dev/null
 install_3proxy
